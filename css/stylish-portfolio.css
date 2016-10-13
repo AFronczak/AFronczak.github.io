@@ -185,7 +185,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(../img/profile.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -200,6 +200,14 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+}
+
+.bg-primary {
+  color: #fff;
+  background-color: #aa6c51;
+}
+.text-primary {
+  color: #8e9798;
 }
 
 /* Call to Action */
@@ -218,6 +226,10 @@ hr.small {
 
 /* Footer */
 
+.social-media a {
+  color: #8e9798;
+}
+
 footer {
     padding: 100px 0;
 }
@@ -227,7 +239,7 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
-  height: 500px;
+  height: 50px;
 }
 
 /*Hover Overlay */
@@ -248,13 +260,13 @@ footer {
   overflow: hidden;
   top: 0;
   left: 0;
-  background-color: rgba(75,75,75,0.7);
+  /*background-color: rgba(48, 152, 157, 0.1);*/
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
 .hovereffect:hover .overlay {
-  background-color: rgba(48, 152, 157, 0.1);
+  background-color: rgba(75,75,75,0.7);
 }
 
 .hovereffect img {
@@ -287,9 +299,8 @@ footer {
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
-  text-transform: uppercase;
   color: #fff;
-  border: 1px solid #fff;
+  /*border: 1px solid #fff;*/
   background-color: transparent;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -312,5 +323,5 @@ footer {
 }
 
 .hovereffect a.info:hover {
-  box-shadow: 0 0 5px #fff;
+  /*box-shadow: 0 0 5px #fff;*/
 }
