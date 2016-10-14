@@ -337,6 +337,23 @@ i.fa-vibe  {
     background-position:center;
     background-size:cover;
 }
-.custom-icon {
+
+  .custom-js {
+    z-index: 1;
+    position: absolute;
+    top: 19%;
+    right: 10%;
+    bottom: 51px;
+    left: 21px;
+}
+.custom-ruby {
   z-index: 1;
+  position: absolute;
+  top: 35%;
+  right: 0;
+  bottom: 0;
+  left: 22%;
+}
+.fa-stack {
+  position: relative;
 }
