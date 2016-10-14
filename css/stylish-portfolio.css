@@ -325,3 +325,18 @@ footer {
 .hovereffect a.info:hover {
   /*box-shadow: 0 0 5px #fff;*/
 }
+
+/*custom icons*/
+i.fa-vibe  {
+    content:"";
+    background-image:url('img/js.svg');
+
+    width: 100px; //WIDTH of the icon
+    height: 100px; //HEIGHT of the icon
+    display: inline-block;
+    background-position:center;
+    background-size:cover;
+}
+.custom-icon {
+  z-index: 1;
+}
