@@ -39,7 +39,7 @@ h6 {
     background: linear-gradient(
                          rgba(20,20,20, .5),
                          rgba(20,20,20, .5)),
-                         url(../img/into.jpg) no-repeat center center;
+                         url(../img/into.JPG) no-repeat center center;
     background-size: cover;
 }
 
@@ -123,7 +123,7 @@ h6 {
     background: linear-gradient(
                          rgba(20,20,20, .5),
                          rgba(20,20,20, .5)),
-                         url(../img/card.jpg) no-repeat center center;
+                         url(../img/card.JPG) no-repeat center center;
     background-size: cover;
 }
 
